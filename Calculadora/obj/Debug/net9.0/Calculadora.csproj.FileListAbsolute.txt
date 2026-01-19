@@ -1,0 +1,14 @@
+/home/eugleni/Programação/CalculadoraS/Calculadora/bin/Debug/net9.0/Calculadora
+/home/eugleni/Programação/CalculadoraS/Calculadora/bin/Debug/net9.0/Calculadora.deps.json
+/home/eugleni/Programação/CalculadoraS/Calculadora/bin/Debug/net9.0/Calculadora.runtimeconfig.json
+/home/eugleni/Programação/CalculadoraS/Calculadora/bin/Debug/net9.0/Calculadora.dll
+/home/eugleni/Programação/CalculadoraS/Calculadora/bin/Debug/net9.0/Calculadora.pdb
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.AssemblyInfoInputs.cache
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.AssemblyInfo.cs
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.csproj.CoreCompileInputs.cache
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.dll
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/refint/Calculadora.dll
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.pdb
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.genruntimeconfig.cache
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/ref/Calculadora.dll
