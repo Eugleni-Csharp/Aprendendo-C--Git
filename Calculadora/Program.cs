@@ -25,14 +25,19 @@ static void Menu()
 
     Console.WriteLine("Escolha uma opção: ");
     Console.WriteLine("1 - Soma");
+    Console.WriteLine("2 - Subtração");
     Console.WriteLine("0 - Sair");
     Console.Write("Opção: ");
-    char opcao = Convert.ToChar(Console.ReadLine());
+    char opcao = Convert.ToChar(Console.ReadLine() ?? "0");
 
     switch (opcao)
     {
         case '1':
             Soma();
+            break;
+
+        case '2':
+            Subtracao();
             break;
 
         case '0':
@@ -66,6 +71,27 @@ static void Soma()
     // Thread.Sleep(1000);
     Menu();
 }
+
+
+static void Subtracao()
+{
+    Console.Clear();
+
+    Console.Write("Digite um número: ");
+    var num1 = Convert.ToDouble(Console.ReadLine());
+
+    Console.Write("Digite outro número: ");
+    var num2 = Convert.ToDouble(Console.ReadLine());
+
+    var resultado = num1 - num2;
+    Console.WriteLine($"O resultado da subtração é: {resultado}");
+    Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
+    Console.ReadKey();
+    Menu();
+}
+
+
+
 
 
 

@@ -12,3 +12,4 @@
 /home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.pdb
 /home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.genruntimeconfig.cache
 /home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/ref/Calculadora.dll
+/home/eugleni/Programação/CalculadoraS/Calculadora/obj/Debug/net9.0/Calculadora.sourcelink.json
