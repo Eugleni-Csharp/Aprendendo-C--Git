@@ -26,6 +26,7 @@ static void Menu()
     Console.WriteLine("Escolha uma opção: ");
     Console.WriteLine("1 - Soma");
     Console.WriteLine("2 - Subtração");
+    Console.WriteLine("3 - Multiplicação");
     Console.WriteLine("0 - Sair");
     Console.Write("Opção: ");
     char opcao = Convert.ToChar(Console.ReadLine() ?? "0");
@@ -38,6 +39,10 @@ static void Menu()
 
         case '2':
             Subtracao();
+            break;
+
+        case '3':
+            Multiplicacao();
             break;
 
         case '0':
@@ -91,6 +96,22 @@ static void Subtracao()
 }
 
 
+static void Multiplicacao()
+{
+    Console.Clear();
+
+    Console.Write("Digite um número: ");
+    var num1 = Convert.ToDouble(Console.ReadLine());
+
+    Console.Write("Digite outro número: ");
+    var num2 = Convert.ToDouble(Console.ReadLine());
+
+    var resultado = num1 * num2;
+    Console.WriteLine($"O resultado da multiplicação é: {resultado}");
+    Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
+    Console.ReadKey();
+    Menu();
+}
 
 
 
