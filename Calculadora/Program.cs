@@ -27,6 +27,7 @@ static void Menu()
     Console.WriteLine("1 - Soma");
     Console.WriteLine("2 - Subtração");
     Console.WriteLine("3 - Multiplicação");
+    Console.WriteLine("4 - Divisão");
     Console.WriteLine("0 - Sair");
     Console.Write("Opção: ");
     char opcao = Convert.ToChar(Console.ReadLine() ?? "0");
@@ -43,6 +44,10 @@ static void Menu()
 
         case '3':
             Multiplicacao();
+            break;
+
+        case '4':
+            Divisao();
             break;
 
         case '0':
@@ -112,6 +117,35 @@ static void Multiplicacao()
     Console.ReadKey();
     Menu();
 }
+
+
+static void Divisao()
+{
+    Console.Clear();
+
+    Console.Write("Digite um número: ");
+    var num1 = Convert.ToDouble(Console.ReadLine());
+
+    Console.Write("Digite outro número: ");
+    var num2 = Convert.ToDouble(Console.ReadLine());
+
+    if (num2 == 0)
+    {
+        Console.WriteLine("Não é possível dividir por zero!");
+        Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
+        Console.ReadKey();
+        Menu(); 
+    }
+
+    var resultado = num1 / num2;
+    Console.WriteLine($"O resultado da divisão é: {resultado}");
+    Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
+    Console.ReadKey();
+    Menu();
+}
+
+
+
 
 
 
