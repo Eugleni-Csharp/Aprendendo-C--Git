@@ -28,6 +28,7 @@ static void Menu()
     Console.WriteLine("2 - Subtração");
     Console.WriteLine("3 - Multiplicação");
     Console.WriteLine("4 - Divisão");
+    Console.WriteLine("5 - Potência");
     Console.WriteLine("0 - Sair");
     Console.Write("Opção: ");
     char opcao = Convert.ToChar(Console.ReadLine() ?? "0");
@@ -48,6 +49,10 @@ static void Menu()
 
         case '4':
             Divisao();
+            break;
+
+        case '5':
+            Potencia();
             break;
 
         case '0':
@@ -145,8 +150,22 @@ static void Divisao()
 }
 
 
+static void Potencia()
+{
+    Console.Clear();
 
+    Console.Write("Digite a base: ");
+    var baseNum = Convert.ToDouble(Console.ReadLine());
 
+    Console.Write("Digite o expoente: ");
+    var expoente = Convert.ToDouble(Console.ReadLine());
+
+    var resultado = Math.Pow(baseNum, expoente);
+    Console.WriteLine($"O resultado da potência é: {resultado}");
+    Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
+    Console.ReadKey();
+    Menu();
+}
 
 
 
